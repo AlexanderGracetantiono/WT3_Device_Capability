@@ -29,6 +29,11 @@
     android:allowBackup="false"
     android:theme="@style/AppTheme"
   >
+     <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyASX84XbGUhw4gq5eDvqsMCU-MCLWx6EMA"/>
+  
+   <!-- You will also only need to add this uses-library tag -->
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE"/>
     <activity
@@ -45,5 +50,6 @@
       </intent-filter>
     </activity>
     <activity android:name="com.facebook.react.devsupport.DevSettingsActivity"/>
+    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
   </application>
 </manifest>
