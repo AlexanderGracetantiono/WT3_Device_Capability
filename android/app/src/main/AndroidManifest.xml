@@ -31,7 +31,7 @@
   >
      <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyASX84XbGUhw4gq5eDvqsMCU-MCLWx6EMA"/>
+            android:value="API-KEY"/>
   
    <!-- You will also only need to add this uses-library tag -->
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
